@@ -1,0 +1,73 @@
+page-login {
+  .login-content {
+    background-image: url('../../assets/img/backgrounds/bgios.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .logo-row {
+      padding-top: 50px;
+      padding-bottom: 20px;
+    }
+
+    .login-box {
+      background: rgba(96, 125, 139, 0);
+      margin-top: 30px;
+    }
+
+    ion-row {
+      /*align-items: center;
+      text-align: center;*/
+    }
+
+    ion-item {
+      font-size: 1em;
+      margin-bottom: 10px;
+      border: 0 solid rgba(0, 0, 0, 0.3);
+      box-shadow: none !important;
+      background: rgba(0, 0, 0, 0) !important;
+    }
+
+    .signup-col {
+      margin: 0 16px;
+      padding-bottom: 20px;
+    }
+
+    /*.item-inner {
+      border-bottom: 0px !important;
+      box-shadow: none !important;
+    }*/
+
+    /*.submit-btn {
+      background: transparent;
+      border-radius: 30px !important;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      color: rgba(0, 0, 0, 0.6);
+    }*/
+
+    .register-btn {
+      color: rgba(0, 0, 0, 0.3);
+      font-size: 0.8em;
+    }
+
+    /*.list-md .item-block .item-inner{
+      border-bottom: 0px !important;
+    }
+
+    .input-cover {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }*/
+
+  }
+
+  .login-icon{
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+  }
+
+  .login-label{
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 0.8em;
+  }
+
+}
